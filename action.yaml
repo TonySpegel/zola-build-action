@@ -1,0 +1,9 @@
+name: 'Build & bundle with Zola & RollUp, deploy to GH Pages'
+description: 'Build and deploy a Zola site to GitHub Pages and bundle its imports'
+author: 'Tony Spegel'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'cloud'  
+  color: 'gray-dark'
