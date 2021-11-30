@@ -2,9 +2,9 @@ FROM debian:stable-slim
 
 LABEL "author"="Tony Spegel"
 
-LABEL "com.github.actions.name"="Build & bundle with Zola & RollUp, deploy to GH Pages"
-LABEL "com.github.actions.description"="Build and deploy a Zola site to GitHub Pages and bundle its imports"
-LABEL "com.github.actions.icon"="cloud"
+LABEL "com.github.actions.name"="Build websites w/ Zola"
+LABEL "com.github.actions.description"="Build a website using Zola"
+LABEL "com.github.actions.icon"="cpu"
 LABEL "com.github.actions.color"="gray"
 
 # Set default locale for the environment
