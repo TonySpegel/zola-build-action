@@ -57,7 +57,7 @@ jobs:
           branch: gh-pages # The branch the action should deploy to.
           folder: dist # The folder the action should deploy.          
 ```
-If you don't want to use bundling step just delete that one and if you want to learn more about my setup have a look at my personal website's [repository](https://github.com/TonySpegel/tsp-website)
+If you don't want to use the bundling step just delete that one and if you want to learn more about my setup have a look at my personal website's [repository](https://github.com/TonySpegel/tsp-website)
 
 This may suit your workflow or won't so feel free to build your own. Most of it is a shellscript where you define your own environment variables:
 ```bash
