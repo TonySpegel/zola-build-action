@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# [ -n STRING ]: True if the length of "STRING" is non-zero.
 # [ -z STRING ]: True if the length of "STRING" is zero.
 
 set -e
@@ -22,8 +21,7 @@ main() {
     echo "Building in $BUILD_DIR directory"
     cd $BUILD_DIR
 
-    echo Building with flags: ${BUILD_FLAGS:+"$BUILD_FLAGS"}
-    zola --config ${CONFIG_FILE} build ${BUILD_FLAGS:+$BUILD_FLAGS}
+    zola --config ${CONFIG_FILE} build
 }
 
 main "$@"
