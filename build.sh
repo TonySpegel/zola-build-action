@@ -22,6 +22,7 @@ main() {
     cd $BUILD_DIR
 
     zola --config ${CONFIG_FILE} build
+    chmod -R 777 dist
 }
 
 main "$@"
